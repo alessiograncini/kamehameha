@@ -1,0 +1,75 @@
+- !<AssetImportMetadata/beb4a41b-5325-4f84-ba92-b20b793ca4af>
+  ImportedAssetIds:
+    TypeScriptAsset: !<reference> d3fb0f16-35fa-4792-9f67-0c270df25b18
+  ImporterName: TypeScriptAssetImporter
+  PrimaryAsset: !<reference> d3fb0f16-35fa-4792-9f67-0c270df25b18
+  PackageType: NotAPackage
+  PackagePolicy: CannotBeUnpacked
+  ExtraData:
+    {}
+  AssetDataMap:
+    TypeScriptAsset: !<own> 9043f0e1-c3ad-419c-b0e4-d269551a4949
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<TypeScriptAssetData/9043f0e1-c3ad-419c-b0e4-d269551a4949>
+  SvgIcon: ""
+  SetupScript:
+    code: ""
+  Description: ""
+  InternalVersion: 0
+  VersionMajor: 0
+  VersionMinor: 0
+  VersionPatch: 0
+  ComponentUid: 343ea4d0-c05b-47bf-aab6-c44362289ae7
+  ExportUid: 00000000-0000-0000-0000-000000000000
+  CurrentVisibility: Editable
+  MaxVisibility: Editable
+  ScriptInputsHidden:
+    handObjectManager: false
+    instantiator: false
+    line3DComponent: false
+    line3DComponentSecond: false
+    lineEndSceneObject: false
+    lineMidPointPrefab: false
+    lineMidSceneObject: false
+    lineRemoteStartSceneObject: false
+    lineStartPrefab: false
+    lineStartSceneObject: false
+    testingMode: false
+    textLog: false
+  ScriptTypesHidden:
+    {}
+  ReadMe: !<reference> 00000000-0000-0000-0000-000000000000
+  DeclarationFile: !<reference> 00000000-0000-0000-0000-000000000000
+  DefaultScriptInputs:
+    - textLog: !<reference.Text> 00000000-0000-0000-0000-000000000000
+      instantiator: !<MappingBased.AssignableType> 00000000-0000-0000-0000-000000000000
+      lineStartPrefab: !<reference.ObjectPrefab> 00000000-0000-0000-0000-000000000000
+      lineMidPointPrefab: !<reference.ObjectPrefab> 00000000-0000-0000-0000-000000000000
+      handObjectManager: !<MappingBased.AssignableType_1> 00000000-0000-0000-0000-000000000000
+      line3DComponent: !<MappingBased.AssignableType_2> 00000000-0000-0000-0000-000000000000
+      line3DComponentSecond: !<MappingBased.AssignableType_3> 00000000-0000-0000-0000-000000000000
+      testingMode: false
+      lineStartSceneObject: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      lineEndSceneObject: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      lineMidSceneObject: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      lineRemoteStartSceneObject: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+  ScriptTypes:
+    -
+      {}
+  InputLines:
+    - // @input Component.Text textLog
+    - // @input AssignableType instantiator
+    - // @input Asset.ObjectPrefab lineStartPrefab
+    - // @input Asset.ObjectPrefab lineMidPointPrefab
+    - // @input AssignableType_1 handObjectManager
+    - // @input AssignableType_2 line3DComponent
+    - // @input AssignableType_3 line3DComponentSecond
+    - // @input bool testingMode
+    - // @input SceneObject lineStartSceneObject
+    - // @input SceneObject lineEndSceneObject
+    - // @input SceneObject lineMidSceneObject
+    - // @input SceneObject lineRemoteStartSceneObject

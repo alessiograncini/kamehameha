@@ -1,0 +1,48 @@
+- !<AssetImportMetadata/7b97372a-62d0-40a7-97b1-2c061755029b>
+  ImportedAssetIds:
+    TypeScriptAsset: !<reference> 084ad7a5-0753-4bc9-9bb3-2267c0c95282
+  ImporterName: TypeScriptAssetImporter
+  PrimaryAsset: !<reference> 084ad7a5-0753-4bc9-9bb3-2267c0c95282
+  PackageType: NotAPackage
+  PackagePolicy: CannotBeUnpacked
+  ExtraData:
+    {}
+  AssetDataMap:
+    TypeScriptAsset: !<own> ba96ec10-00b0-424b-8628-35e48cc0fe36
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<TypeScriptAssetData/ba96ec10-00b0-424b-8628-35e48cc0fe36>
+  SvgIcon: ""
+  SetupScript:
+    code: ""
+  Description: ""
+  InternalVersion: 0
+  VersionMajor: 0
+  VersionMinor: 0
+  VersionPatch: 0
+  ComponentUid: 47e38e41-e7df-467b-a22d-1515bb957015
+  ExportUid: 00000000-0000-0000-0000-000000000000
+  CurrentVisibility: Editable
+  MaxVisibility: Editable
+  ScriptInputsHidden:
+    lineObjectManager: false
+    lineType: false
+    testingMode: false
+  ScriptTypesHidden:
+    {}
+  ReadMe: !<reference> 00000000-0000-0000-0000-000000000000
+  DeclarationFile: !<reference> 00000000-0000-0000-0000-000000000000
+  DefaultScriptInputs:
+    - lineObjectManager: !<MappingBased.AssignableType> 00000000-0000-0000-0000-000000000000
+      lineType: start
+      testingMode: false
+  ScriptTypes:
+    -
+      {}
+  InputLines:
+    - // @input AssignableType lineObjectManager
+    - '// @input string lineType = "start"'
+    - // @input bool testingMode

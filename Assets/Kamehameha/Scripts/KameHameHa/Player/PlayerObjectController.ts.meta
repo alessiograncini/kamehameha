@@ -1,0 +1,42 @@
+- !<AssetImportMetadata/dbb76396-4563-4b49-b7ef-fb78806fa9c9>
+  ImportedAssetIds:
+    TypeScriptAsset: !<reference> 5674c75f-96c8-45d6-bee8-ff9197687f69
+  ImporterName: TypeScriptAssetImporter
+  PrimaryAsset: !<reference> 5674c75f-96c8-45d6-bee8-ff9197687f69
+  PackageType: NotAPackage
+  PackagePolicy: CannotBeUnpacked
+  ExtraData:
+    {}
+  AssetDataMap:
+    TypeScriptAsset: !<own> 766a1d38-7e48-45ab-a58c-d35e55d1b163
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<TypeScriptAssetData/766a1d38-7e48-45ab-a58c-d35e55d1b163>
+  SvgIcon: ""
+  SetupScript:
+    code: ""
+  Description: ""
+  InternalVersion: 0
+  VersionMajor: 0
+  VersionMinor: 0
+  VersionPatch: 0
+  ComponentUid: a7556084-046e-48b3-b494-0589bbf674b0
+  ExportUid: 00000000-0000-0000-0000-000000000000
+  CurrentVisibility: Editable
+  MaxVisibility: Editable
+  ScriptInputsHidden:
+    playerObjectManager: false
+  ScriptTypesHidden:
+    {}
+  ReadMe: !<reference> 00000000-0000-0000-0000-000000000000
+  DeclarationFile: !<reference> 00000000-0000-0000-0000-000000000000
+  DefaultScriptInputs:
+    - playerObjectManager: !<MappingBased.AssignableType> 00000000-0000-0000-0000-000000000000
+  ScriptTypes:
+    -
+      {}
+  InputLines:
+    - // @input AssignableType playerObjectManager

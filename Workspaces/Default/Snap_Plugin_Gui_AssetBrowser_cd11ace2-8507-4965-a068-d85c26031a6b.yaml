@@ -1,0 +1,21 @@
+CollapsedEntities:
+  type: stringset
+  value:
+    size: 15
+    values:
+      - ""
+      - AI Visual
+      - GPU Particles Trail Mesh Builder.lspkg
+      - GPU Particles Trail Mesh Builder.lspkg/package.native
+      - Kamehameha
+      - Kamehameha/Assets/Materials
+      - Kamehameha/Assets/Meshes
+      - Kamehameha/Assets/Shaders
+      - Kamehameha/Assets/Textures
+      - Kamehameha/Scripts
+      - Rainbow Material
+      - SpectaclesInteractionKit.lspkg
+      - SpectaclesInteractionKit.lspkg/package.native
+      - SpectaclesInteractionKitExamples.lspkg/package.native
+      - SpectaclesSyncKit.lspkg/package.native
+  options: 4

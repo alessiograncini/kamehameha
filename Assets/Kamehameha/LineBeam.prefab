@@ -1,0 +1,61 @@
+- !<ObjectPrefab/36876844-6b10-49fa-9710-2d7425e7c0dd>
+  PackagePath: ""
+  objects:
+    - !<own> 7c64a00f-e162-410b-8ce4-7eac832bbcee
+  LazyLoading: false
+  RetainAssets: true
+- !<SceneObject/7c64a00f-e162-410b-8ce4-7eac832bbcee>
+  PrefabRemaps:
+    []
+  Name: LineBeam
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 8baeb19f-ef86-42aa-8a0d-4c4f436d9e9c
+- !<ScriptComponent/8baeb19f-ef86-42aa-8a0d-4c4f436d9e9c>
+  PrefabRemaps:
+    []
+  Name: Line3D
+  Enabled: true
+  ScriptAsset: !<reference> fa2c2adf-f4c6-4479-839d-5931290ead06
+  ScriptInputsDefault:
+    pathPoints: true
+    _radius: true
+    _circleSegments: true
+    _interpolationSteps: true
+    _smoothness: true
+    _color: true
+    capEnds: true
+    _zOffset: true
+    _useWorldPosition: true
+    _autoCorrectOffset: true
+    _useRelativeToComponent: true
+    _debugPositions: true
+  ScriptTypesDefault:
+    {}
+  ScriptInputs:
+    "":
+      pathPoints: !<reference.SceneObject[]>
+        []
+      _radius: !<float> 10.000000
+      _circleSegments: !<float> 16.000000
+      _interpolationSteps: !<float> 10.000000
+      _smoothness: 0.500000
+      material: !<reference.Material> bef60c5f-99c8-4b58-a561-c6a6f4dbbfdf
+      _color: !<Vec3> {x: 1.000000, y: 1.000000, z: 0.000000}
+      capEnds: true
+      _zOffset: !<float> 0.000000
+      _useWorldPosition: true
+      _autoCorrectOffset: true
+      _useRelativeToComponent: true
+      _debugPositions: false
+  ScriptTypes:
+    "":
+      {}

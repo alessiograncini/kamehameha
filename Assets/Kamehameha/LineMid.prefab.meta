@@ -1,0 +1,79 @@
+- !<AssetImportMetadata/1842dcc5-2d69-4cb8-b59e-19cbd0f48b68>
+  ImportedAssetIds:
+    ObjectPrefab: !<reference> 44ecc2f2-b75f-4ee0-8998-20840dcee880
+  ImporterName: ObjectPrefabImporter
+  PrimaryAsset: !<reference> 44ecc2f2-b75f-4ee0-8998-20840dcee880
+  PackageType: NotAPackage
+  PackagePolicy: CannotBeUnpacked
+  ExtraData:
+    {}
+  AssetDataMap:
+    ObjectPrefab: !<own> 56d3f0d2-3cd8-4235-b4eb-595cb6be3a0a
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<SceneObject/045c3805-0a22-4c4d-a1ee-cb6c1522b553>
+  PrefabRemaps:
+    []
+  Name: LineEnd
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    scale: {x: 10.000000, y: 10.000000, z: 10.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    - !<own> 5994f745-1691-42b0-aab8-5a921cb474f0
+  Components:
+    []
+- !<ObjectPrefab/19c67377-d5ca-48c0-af36-83b42eb801aa>
+  PackagePath: ""
+  objects:
+    - !<own> 045c3805-0a22-4c4d-a1ee-cb6c1522b553
+  LazyLoading: false
+  RetainAssets: true
+- !<RenderMeshVisual/21882bf3-0616-44fc-99e8-e62de8090e20>
+  PrefabRemaps:
+    []
+  Name: Render Mesh Visual
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> 1f2d96b9-d4d0-4b1b-954f-bd63aee95f4e
+  Mesh: !<reference> 028abd0e-6aeb-49d3-bb34-eaae9be577dc
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<ObjectPrefabAssetData/56d3f0d2-3cd8-4235-b4eb-595cb6be3a0a>
+  SourceRemaps:
+    - 1be5dce8-fba9-410f-a07a-0b4d45f83c0b: 045c3805-0a22-4c4d-a1ee-cb6c1522b553
+    - 44ecc2f2-b75f-4ee0-8998-20840dcee880: 19c67377-d5ca-48c0-af36-83b42eb801aa
+    - 6a3fcb67-2b0f-4174-86e0-3ea53388866a: 21882bf3-0616-44fc-99e8-e62de8090e20
+    - 86841a1b-785b-41af-844a-088b5a7688f8: 5994f745-1691-42b0-aab8-5a921cb474f0
+  SourceState: !<own> 19c67377-d5ca-48c0-af36-83b42eb801aa
+- !<SceneObject/5994f745-1691-42b0-aab8-5a921cb474f0>
+  PrefabRemaps:
+    []
+  Name: Object 0
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 21882bf3-0616-44fc-99e8-e62de8090e20
